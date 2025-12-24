@@ -7,7 +7,7 @@
 Você está trancado em um bunker enquanto pessoas batem à sua porta pedindo abrigo.  
 O problema? **Nem todos são humanos.**
 
-Seu papel é **observar, analisar e decidir** quem entra — sabendo que **uma escolha errada pode significar o fim**.
+Seu papel é **observar, analisar e decidir** quem entra, sabendo que **uma escolha errada pode significar o fim**.
 
 O jogo combina:
 - narrativa progressiva,
