@@ -1,4 +1,7 @@
 # 🕯️ Don’t Let Them In
+<p align="center">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnV4c2RpOXkyYWE5bmIyN2M1b29rdWZjczl4aGxzbGtvbWd6OHhoeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Br9iG1RearpBctyK7F/giphy.gif" alt="Don't Let Them In" width="600">
+</p>
 
 ## 🧠 Sobre o Projeto
 
