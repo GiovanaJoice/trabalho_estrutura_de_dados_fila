@@ -90,7 +90,7 @@ void history(){
     // Impacto
     printf(VERMELHO "17 de maio de 2029 — 02:41\n" RESET);
     printf(AZUL "TV: " RESET);
-    type_text("Um meteoro entra na atmosfera e e visto em varios paises.", 80000);
+    type_text("Um meteoro entra na atmosfera e é visto em varios paises.", 80000);
     printf("\n");
     printf("\n");
 
@@ -924,7 +924,7 @@ human=0;//n humano
         }else{strcpy(Name,"Homem de jaleco rasgado: ");
         strcpy(Desc,"Um homem com roupas hospitalares sujas de sangue seco, ele treme um pouco\n");}
        
-        strcpy(Falas[0],"Olá. Por favor, agilize o processo. Tenho... pacientes esperando lá dentro.\n");
+        strcpy(Falas[0],"Olá. Por favor, agilize o processo. Tenho... pacientes esperando ai dentro.\n");
         strcpy(Falas[1],"Voces não entendem... voces estão doentes. Nós somos a melhoria.\n");
         strcpy(Falas[2],"Excelente escolha. Vamos começar a... triagem dos órgãos.\n");
        
