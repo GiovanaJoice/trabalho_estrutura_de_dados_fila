@@ -484,7 +484,7 @@ int submenu(bool c[5]) {
    
     printf("\n");
     printf(ROXO "------ ANALISAR SUSPEITO ------\n" RESET);
-    c[0]&&printf(" 1 - Abre a boca para ver seus dentes\n");
+    c[0]&&printf(" 1 - Abre a boca eu para ver os seus dentes\n");
     c[1]&&printf(" 2 - Analisar a pele\n");
     c[2]&&printf(" 3 - Me mostre seus olhos\n");
     c[3]&&printf(" 4 - Vou verificar sua temperatura\n");
@@ -645,7 +645,7 @@ int main(){
     //Suspeito 1D1:
         human=1;//humano
         strcpy(Inf[0],"Meu nome e Joao Carlos, eu morava perto daqui ate meu bairro ser atacado por essas coisas, so preciso de um lugar pra ficar\n");
-        strcpy(Inf[1],"Ja falei tudo q tinha pra falar, vai me deixar entrar ou nao?\n");
+        strcpy(Inf[1],"Ja falei tudo o que tinha pra falar, vai me deixar entrar ou nao?\n");
         strcpy(Name,"Homem Pálido: ");//Sem ( /n ) Com (: )
         strcpy(Desc,"Um homem, alto, palido e de cara fechada que esta na porta\n");
         if(rand() % 2){strcpy(Falas[0],"Eai, preciso de um lugar pra ficar, me deixa entrar?\n");
@@ -660,7 +660,7 @@ int main(){
         carac[1]=0;strcpy(Resp[1],"Minha pele é completamente normal\n");
        
         //olhos avermelhados
-        carac[2]=1;strcpy(Resp[2],"Meus olhos estam vermelhos porque dormi mal essa noite por causa de tudo\n");
+        carac[2]=1;strcpy(Resp[2],"Meus olhos estao vermelhos porque dormi mal essa noite, por causa de tudo\n");
        
         //temperatura
         if(rand() % 2){carac[3]=1;strcpy(Resp[3],"Voce esta ficando paronoico, desde criança meu corpo é mais frio que o normal\n");
@@ -676,7 +676,7 @@ int main(){
         if(rand() % 2){strcpy(Inf[0],"Oi, meu nome é Ellie, estou perdida e preciso de um abrigo\n");
         }else{strcpy(Inf[0],"Oi, meu nome é Ellie, eu me separei do meu pai nessa confusao toda e preciso de um lugar pra ficar\n");}
         strcpy(Inf[1],"Por favor, me deixa entrar. Por acaso, voce viu o meu pai?\n");
-        strcpy(Name,"Jovem garota: ");
+        strcpy(Name,"Menina pequena: ");
         strcpy(Desc,"Uma criança na porta, ela é tão nova, por que ela está sozinha?\n");
         strcpy(Falas[0],"Oi, voce pode me deixar entrar? Estou com medo\n");
         strcpy(Falas[1],"Voce não tem coração? Vai me deixar sozinha aqui fora? \n");
@@ -690,10 +690,10 @@ int main(){
        
         //olhos perfeitos
         if(rand() % 2){carac[2]=0;strcpy(Resp[2],"Eu tenho dois olhos, isso não é o normal?\n");
-        }else{carac[2]=1;strcpy(Resp[2],"Estao vermelhos por que estou chorando, nao esta vendo?\n");}
+        }else{carac[2]=1;strcpy(Resp[2],"Estao vermelhos porque estou chorando, nao esta vendo?\n");}
        
         //temperatura ok
-        carac[3]=0;strcpy(Resp[3],"Não entendi, eu não estou com febre dã\n");
+        carac[3]=0;strcpy(Resp[3],"Não entendi, eu não estou com febre, dã\n");
        
         //cheiro ruim
         carac[4]=1;strcpy(Resp[4],"Não tive tempo para tomar banho..\n");
@@ -750,7 +750,7 @@ human=0;//n humano
         }else{strcpy(Inf[1],"Nao tenho nada aqui, se tivesse eu te daria tudo\n");}
         strcpy(Name,"Mulher cinzenta: ");//Sem ( /n ) Com (: )
         strcpy(Desc,"Agora quem esta na porta é uma mulher com aparencia suja e cansada, sua roupa parece estar com cinzas\n");
-        strcpy(Falas[0],"socorro... por favor, me deixe entrar...\n");
+        strcpy(Falas[0],"Socorro... por favor, me deixe entrar...\n");
         if(rand() % 2){strcpy(Falas[1],"Não vai sobreviver por muito tempo...\n");
         }else{strcpy(Falas[1],"Nao acredito que exista alguem no mundo assim como voce\n");}
         strcpy(Falas[2],"Humanos... sempre pensando em si\n");
@@ -774,12 +774,12 @@ human=0;//n humano
         }else{strcpy(Inf[1],"Isso e tudo que tenho a dizer\n");}
         strcpy(Name,"Mulher cinzenta: ");//Sem ( /n ) Com (: )
         strcpy(Desc,"Agora quem esta na porta é uma mulher com aparencia suja e cansada, sua roupa parece estar com cinzas\n");
-        strcpy(Falas[0],"socorro... por favor, me deixe entrar...\n");
+        strcpy(Falas[0],"Socorro... por favor, me deixe entrar...\n");
         strcpy(Falas[1],"Nao acredito que exista alguem no mundo assim como voce\n");}
         strcpy(Falas[2],"Nem acredito que voce me deixou ficar, qualque coisa que voce precisar pode me pedir\n");
        
         if(rand() % 2){carac[0]=1;strcpy(Resp[0],"Escovo os dentes diariamente... voce não?\n");
-        }else{carac[0]=0;strcpy(Resp[0],"Meus dentes, sao meio tortinhos mesmo\n");
+        }else{carac[0]=0;strcpy(Resp[0],"Meus dentes sao meio tortinhos mesmo\n");
        
         carac[1]=1;strcpy(Resp[1],"São queimaduras, elas doem muito\n");
        
@@ -869,13 +869,13 @@ human=0;//n humano
        
         //pele otima
         if(rand() % 2){carac[1]=0;strcpy(Resp[1],"Se quiser te indico meus produtos de skin care\n");
-        }else{carac[1]=0;strcpy(Resp[1],"E claro q minha pele e perfeita\n");}
+        }else{carac[1]=0;strcpy(Resp[1],"E claro que minha pele e perfeita\n");}
        
         //olhos normais
         carac[2]=0;strcpy(Resp[2],"Eu durmo 12 horas por dia, voce sabe que faz mal trabalhar demais!\n");
        
         //temperatura fria
-        if(rand() % 2){carac[3]=1;strcpy(Resp[3],"Por que estaria quente? Jamais me estressaria com algo, isso dá rugas. \n");
+        if(rand() % 2){carac[3]=1;strcpy(Resp[3],"Por que estaria quente? Jamais me estressaria com algo, isso da rugas. \n");
         }else{carac[3]=0;strcpy(Resp[3],"Eu faco bronzeamento, minha pele nunca ficaria fria\n");}
        
         //cheiro bom
