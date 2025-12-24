@@ -90,5 +90,6 @@ Cada final possui sua própria mensagem narrativa.
 ## 👥 Integrantes do Trabalho
 
 - **[Arian Queiroz Dantas](https://github.com/arianqueiroz)**
-- **[Francisco Gabriel Carvalho](https://github.com/Fratis35)**
+- **[Francisco Gabriel Carvalho de Souza Silveira
+](https://github.com/Fratis35)**
 - **[Giovana Joice Costa Moreira](https://github.com/GiovanaJoice)**
