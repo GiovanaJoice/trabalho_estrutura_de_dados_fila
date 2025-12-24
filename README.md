@@ -1,6 +1,6 @@
 # 🕯️ Don’t Let Them In
 <p align="center">
-  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnV4c2RpOXkyYWE5bmIyN2M1b29rdWZjczl4aGxzbGtvbWd6OHhoeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Br9iG1RearpBctyK7F/giphy.gif" alt="Don't Let Them In" width="600">
+  <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWYybXY4Y3BtYm1heDd4MmV4Y3QxaXc3NnN4eWttcnNtcnNteXQ0dCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3CAFFatOHK0PJulM5D/giphy.gif" alt="Don't Let Them In" width="600">
 </p>
 
 ## 🧠 Sobre o Projeto
