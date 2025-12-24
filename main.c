@@ -187,15 +187,6 @@ void mostrarHospedes() {
     printf("\n");
 }
 
-/*
-void frame(const char *titulo, const char *cor) {
-    printf(cor);
-    type_text("\n+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+\n", 20000);
-    printf("|\t%-35s|\n", titulo);
-    type_text("+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~+\n\n", 20000);
-    printf(RESET);
-}*/
-
 void final_gameover() {
     sleep(2);
     limpar();
@@ -325,27 +316,6 @@ void Final() {
         final_humano();
     }
 }
-/*
-void Final(){
-    sleep(2);
-    printf("\n");
-    if(morrer){
-        printf("Final 1 gameover");
-        //Final 1 gameover
-    }else if(Entrou==Thuman){
-        printf("Final 2 Salvador");
-        //Final 2 Salvador
-    }else if(Entrou==0){
-        printf("Final 3 Egoista");
-        //Final 3 Egoista
-    }else if(Entrou < 0.7*Thuman){
-        printf("Final 4 Desconfiado");
-        //Final 4 Desconfiado
-    }else if(Entrou >= 0.7*Thuman){
-        printf("Final 5 Humano");
-        //Final 5 Humano
-    }
-}*/
 
 
 // [1] Estrutura do nó e da fila
@@ -406,7 +376,6 @@ void inserir(Fila* f, bool human, const char Inf[2][170], const char Name[30],co
     f->fim = novo;
     f->quant++;
 }
-
 
 
 // [1] Tamanho da fila
@@ -476,7 +445,6 @@ void analisar(Fila* f, int num, bool verif[5]) {
     type_text(f->inicio->Resp[num], 50000);
     sleep(1);
 }
-
 
 
 int submenu(bool c[5]) {
@@ -610,7 +578,6 @@ bool acessarPrimeiro(Fila* f) {
      printf(CINZA "\n==Acho q ninguem mais vira essa noite==\n" RESET);
      return 0;
 }
-
 
 
 
@@ -948,7 +915,6 @@ human=0;//n humano
        
     }    
 
-
    
     printf(AMARELO "\nDIA 2: 19 de maio de 2029 - 02:03\n" RESET);
     printf(AZUL "TV (Últimas Notícias): " RESET);
@@ -964,7 +930,6 @@ human=0;//n humano
 
     }if(!morrer){
 
-   
 
     //Supeitos do dia 3:
 
