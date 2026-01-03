@@ -452,7 +452,7 @@ int submenu(bool c[5]) {
    
     printf("\n");
     printf(ROXO "------ ANALISAR SUSPEITO ------\n" RESET);
-    c[0]&&printf(" 1 - Abre a boca eu para ver os seus dentes\n");
+    c[0]&&printf(" 1 - Abre a boca para eu ver os seus dentes\n");
     c[1]&&printf(" 2 - Analisar a pele\n");
     c[2]&&printf(" 3 - Me mostre seus olhos\n");
     c[3]&&printf(" 4 - Vou verificar sua temperatura\n");
